@@ -1,0 +1,103 @@
+/* Общий фон и центрирование */
+body {
+  background: #1a3a70;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Блок конвертера */
+.converter {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Поле ввода суммы */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Два поиска */
+#searchFrom,
+#searchTo {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Группа селектов */
+.select-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 45%;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  appearance: none;
+}
+
+/* Кнопка конвертации */
+button {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+#swapBtn {
+  padding: 5px 10px;
+  background-color: #2d3da3;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+
+
+/* Результат */
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  word-wrap: break-word;
+}
